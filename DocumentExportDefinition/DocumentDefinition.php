@@ -18,6 +18,7 @@ class DocumentDefinition
     const PROPERTY_LOCALE = "locale";
 
     const OPTION_BASE_URL = 'baseUrl';
+    const OPTION_CONVERSION_TYPE = 'conversionType';
     const OPTION_MERGE_CONTINUOUS = 'mergeContinuous';
     const OPTION_TEMPLATE_VAR_SYMBOL = 'templateVarSymbol';
 
@@ -59,6 +60,7 @@ class DocumentDefinition
      */
     protected $options = [
         self::OPTION_BASE_URL => null,
+        self::OPTION_CONVERSION_TYPE => null,
         self::OPTION_MERGE_CONTINUOUS => null,
         self::OPTION_TEMPLATE_VAR_SYMBOL => '$'
     ];
